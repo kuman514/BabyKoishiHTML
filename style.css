@@ -8,8 +8,12 @@ h1 {
     padding-bottom: 80px;
     text-align: center;
     text-shadow: 1px 1px 2px black;
-    color: #20cc20;
     border-bottom: 1px gray solid;
+}
+
+h1 > a {
+    color: #20cc20;
+    text-decoration: none;
 }
 
 .menuInput {

@@ -11,7 +11,7 @@ h1 {
     border-bottom: 1px gray solid;
 }
 
-h1 > a {
+a {
     color: #20cc20;
     text-decoration: none;
 }
@@ -26,11 +26,6 @@ ol {
     padding: 20px;
     padding-left: 30px;
     padding-right: 15px;
-}
-
-li > a {
-    color: green;
-    text-decoration: none;
 }
 
 #middle {

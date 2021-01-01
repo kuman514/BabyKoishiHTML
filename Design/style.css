@@ -57,6 +57,10 @@ ol {
     color: green;
 }
 
+.satori {
+    color: purple;
+}
+
 @media (max-width: 800px) {
     h1 {
         border-bottom: none;

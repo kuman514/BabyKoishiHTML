@@ -28,6 +28,18 @@ ol {
     padding-right: 15px;
 }
 
+.artGrid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1340px) {
+    .artGrid {
+        display: block;
+    }
+}
+
 #middle {
     display: grid;
     grid-template-columns: 180px 1fr;
@@ -56,6 +68,5 @@ ol {
 
     #middle {
         display: block;
-        grid-template-columns: 180px 1fr;
     }
 }

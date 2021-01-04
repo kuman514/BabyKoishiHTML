@@ -9,6 +9,10 @@ h1 {
     text-align: center;
     text-shadow: 1px 1px 2px black;
     border-bottom: 1px gray solid;
+
+    background-image: url("../Resource/maingate.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -26,6 +30,10 @@ ol {
     padding: 20px;
     padding-left: 30px;
     padding-right: 15px;
+}
+
+ol > li {
+    text-shadow: 1px 1px 1px black;
 }
 
 .artGrid {
@@ -54,11 +62,11 @@ ol {
 }
 
 .koishi {
-    color: green;
+    color: #20cc20;
 }
 
 .satori {
-    color: purple;
+    color: #cc20cc;
 }
 
 @media (max-width: 800px) {
